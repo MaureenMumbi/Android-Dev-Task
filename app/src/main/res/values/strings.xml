@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SmartDuka</string>
+    <string name="clientID">abH1JvgefcuAC33bigXvL7r75TiQfPh3PNS2qiP4</string>
+    <string name="clientSecret">uBz14WSGNmFGrIrMtMxFA2XoDDMqjPeVsdBXwnYAD07DK3aTd4yUTtM1a8F5OiJFzTqgDGCLtFF1wgT5aWe6Y83JX6ZXCVaatrWOgIBAi2c3zZnwcwioNNF2zZBmNv2Y</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="accesstoken">access_token</string>
+    <string name="refreshtoken">refresh_token</string>
+    <string name="search_title">Search</string>
+    <string name="search_hint">Enter your Keyword</string>
+    <string name="title_activity_category">CategoryActivity</string>
+    <string name="categories">Category</string>
+    <string name="videos">Video</string>
+    <string name="account">Account</string>
+
+</resources>

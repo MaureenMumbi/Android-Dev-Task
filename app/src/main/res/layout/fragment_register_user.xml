@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_linear_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextAppearance.AppCompat.Medium"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Register" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/emaillyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/label"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/emailTxtView"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Email" />
+
+                <EditText
+                    android:id="@+id/email"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/fnamelyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/emaillyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/firstnamelbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="First Name" />
+
+                <EditText
+                    android:id="@+id/firstname"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lnamelyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fnamelyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lastnamelbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Last Name" />
+
+                <EditText
+                    android:id="@+id/lastname"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/is_activelyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lnamelyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/is_activelbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Is Active" />
+
+                <CheckBox
+                    android:id="@+id/is_active"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/is_stafflyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/is_activelyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/is_stafflbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Is Staff" />
+
+                <CheckBox
+                    android:id="@+id/is_staff"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/is_superuserlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/is_stafflyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/is_superuserlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Is Siuper User" />
+
+                <CheckBox
+                    android:id="@+id/is_superuser"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/groupslyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/is_superuserlyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/groupslbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Groups" />
+
+                <EditText
+                    android:id="@+id/groups"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/phone_numberlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/groupslyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/phone_numberlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Phone Number" />
+
+                <EditText
+                    android:id="@+id/phone_number"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/is_trainerlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone_numberlyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/is_trainerlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Trainer" />
+
+                <CheckBox
+                    android:id="@+id/is_trainer"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/traineelyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/is_trainerlyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/traineeslbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Trainees" />
+
+                <EditText
+                    android:id="@+id/trainees"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/date_joinedlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/traineelyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/date_joinedlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Date Joined" />
+
+                <EditText
+                    android:id="@+id/date_joined"
+                    android:layout_width="700px"
+                    android:layout_height="100px"
+                    android:clickable="true"
+                    android:focusable="false"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/locationlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_joinedlyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/locationlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Location" />
+
+                <Spinner
+                    android:id="@+id/location"
+                    android:layout_width="700px"
+                    android:layout_height="100px" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/passwordlyt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locationlyt"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/passwordlbl"
+                    android:layout_width="300px"
+                    android:layout_height="100px"
+                    android:gravity="center"
+                    android:paddingTop="16px"
+                    android:text="Password" />
+
+                <EditText
+                    android:id="@+id/password"
+                    android:layout_width="700px"
+                    android:layout_height="100px"
+                    android:inputType="textPassword" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/passwordlyt"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/registerbtn"
+                    android:layout_width="300px"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="Register" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>

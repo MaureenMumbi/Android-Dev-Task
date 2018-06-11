@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="exoplayer_height">220dp</dimen>
+    <dimen name="exoplayer_marginTop">0dp</dimen>
+    <dimen name="exoplayer_marginBottom">10dp</dimen>
+    <dimen name="exoplayer_marginLeft">0dp</dimen>
+    <dimen name="exoplayer_marginRight">0dp</dimen>
+
+
+</resources>

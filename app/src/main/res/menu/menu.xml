@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:title="@string/search_title"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_categories"
+        android:title="@string/categories"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_video"
+        android:title="@string/videos"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_account"
+        android:title="@string/account"
+        app:showAsAction="never" />
+
+</menu>
